@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    text-align: center;
+    background-color: #ffffff;
+    color: darkred;
+    padding: 40px;
+}
+
+nav {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    color: darkred;
+}
