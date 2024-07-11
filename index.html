@@ -34,8 +34,7 @@
 
     <main>
             <!-- section 1: about me + Jazmine photo -->
-    <section class="hero section">
-            <div class="aboutme text">
+    <div id="AboutMe" class="about-me">
                 <h2 id="aboutme">About Me</h2>
                 <img src="assets/images/IMG_9515.JPG" alt="photo of Jazmine Arcé" id="self-image" class="float-left" />
                 <p id="aboutme"> My name is Jazmine Arcé and I was born and raised in Miami, Fl.
@@ -45,33 +44,33 @@
                     I am currently enrolled in the coding bootcamp at the University of California Berkeley, 
                     where I will expand my knowledge about HTML, CSS, JavaScript and more.
                 </p>
-            </div>
-        </div>
-    </section>
+     </div>
 
             <!-- section 2: projects -->
-    <section id="projects">
-            <h2 id="projects">Projects</h2>
+    <div id="projects" class="projects">
+            <h2 id="Projects">Projects</h2>
+            <div class="Module1Project">
             <a href="Module 1 Project">
-                <img src="assets/images/edited1.png" alt="screenshot of Module 1 Project" id="projectimage" />
+                <a href="https://github.com/jazminearce/module1challenge"><img src="assets/images/edited1.png" alt="screenshot of Module 1 Project" id="projectimage"/>
             </a>
-                <div class="overlaytext1">Module 1 Project</div>
+    </div>
+
 
             <div class="sample project images">
+                
+                <img src="assets/images/sample-project1.jpg" alt="image of Sample Project 1" id="sampleprojectimages"/>
+                
+                <img src="assets/images/sample-project2.jpg" alt="image of Sample Project 2" id="sampleprojectimages"/>
 
-                <img src="assets/images/sample-project1.webp" alt="screenshot of Sample Project 1" id="sampleprojectimages"/>
-
-                <img src="assets/images/sample-project2.avif" alt="screenshot of Sample Project 2" id="sampleprojectimages"/>
-
-                <img src="assets/images/sample-project3.avif" alt="screenshot of Sample Project 3" id="sampleprojectimages"/>
+                <img src="assets/images/sample-project3.jpg" alt="image of Sample Project 3" id="sampleprojectimages"/>
 
             </div>
             
         </section>
 
             <!-- section 3: contact -->
-    <section id="contact">
-                 <h2 id="contact">Contact</h2>
+    <div id="contact" class="contact">
+                 <h2 id="Contact">Contact</h2>
         <form>
             <label for="Name">Name</label>
             <input type="text" id="Name" />
@@ -84,7 +83,7 @@
 
             <button type="submit">Submit</button>
         </form>
-        </div>
+    </div>
     </section>
 
 
