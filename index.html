@@ -34,12 +34,12 @@
 
     <main>
             <!-- section 1: about me + Jazmine photo -->
-    <section id="aboutme"> 
-            <div id="About Me" class="About Me">
-                <h2>About Me</h2>
+    <section class="hero section">
+            <div class="aboutme text">
+                <h2 id="aboutme">About Me</h2>
                 <img src="assets/images/IMG_9515.JPG" alt="photo of Jazmine Arcé" id="self-image" class="float-left" />
                 <p id="aboutme"> My name is Jazmine Arcé and I was born and raised in Miami, Fl.
-                    I graduated from ASU with a Bachelors Degree in merchandsing. I currently work
+                    I graduated from ASU with a Bachelors Degree in Merchandsing. I currently work
                     as a dermatology medical assistant and surgical technian, but became interested in computer
                     science.
                     I am currently enrolled in the coding bootcamp at the University of California Berkeley, 
@@ -51,16 +51,27 @@
 
             <!-- section 2: projects -->
     <section id="projects">
-            <h2>Projects</h2>
+            <h2 id="projects">Projects</h2>
             <a href="Module 1 Project">
-                <img src="assets/images/edited1.png" alt="screenshot of Module 1 Project" class="projectimage" />
+                <img src="assets/images/edited1.png" alt="screenshot of Module 1 Project" id="projectimage" />
             </a>
-        </section>
+                <div class="overlaytext1">Module 1 Project</div>
 
+            <div class="sample project images">
+
+                <img src="assets/images/sample-project1.webp" alt="screenshot of Sample Project 1" id="sampleprojectimages"/>
+
+                <img src="assets/images/sample-project2.avif" alt="screenshot of Sample Project 2" id="sampleprojectimages"/>
+
+                <img src="assets/images/sample-project3.avif" alt="screenshot of Sample Project 3" id="sampleprojectimages"/>
+
+            </div>
+            
+        </section>
 
             <!-- section 3: contact -->
     <section id="contact">
-                 <h2>Contact</h2>
+                 <h2 id="contact">Contact</h2>
         <form>
             <label for="Name">Name</label>
             <input type="text" id="Name" />
@@ -69,7 +80,7 @@
             <input type="email" id="email" />
 
             <label for="Message">Message</label>
-            <textarea id="Message" cols="60" rows="20"></textarea>
+            <textarea id="Message" cols="80" rows="10"></textarea>
 
             <button type="submit">Submit</button>
         </form>
