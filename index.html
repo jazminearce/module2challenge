@@ -5,70 +5,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Jazmine Arcé Portfolio</title>
 </head>
 
 <body>
     <div class="header">
-    <h1>Jazmine Arcé</h1>
-    <!-- navigation bar -->
-    <nav>
-        <div class="nav">
+        <h1>Jazmine Arcé</h1>
+        <!-- navigation bar with links and icons-->
+        <nav>
+            <div class="nav">
 
-            <a href="#AboutMe">About Me</a>
+                <a href="#AboutMe"><i class="fa-solid fa-chalkboard-user"></i>About Me</a>
 
-            <a href="#Projects">Projects</a>
+                <a href="#Projects"><i class="fa-regular fa-folder-open"></i>Projects</a>
 
-            <a href="#Contact">Contact</a>
-        </div>
+                <a href="#Contact"><i class="fa-solid fa-envelopes-bulk"></i>Contact</a>
+
+            </div>
     </div>
     </nav>
 
-    <!-- about me + Jazmine photo -->
     <main>
-        <div class="container">
+            <!-- section 1: about me + Jazmine photo -->
+    <section id="aboutme"> 
             <div id="About Me" class="About Me">
                 <h2>About Me</h2>
-                <img src="assets/images/IMG_9515.JPG" alt="photo of Jazmine Arcé" id="self-image" class="float-left"/>
+                <img src="assets/images/IMG_9515.JPG" alt="photo of Jazmine Arcé" id="self-image" class="float-left" />
                 <p id="aboutme"> My name is Jazmine Arcé and I was born and raised in Miami, Fl.
-                I graduated from ASU in 2019 with a Bachelors Degree in merchandsing. I currently work 
-                as a dermatology medical assistant and surgical technian, but quickly became interested in computer science. 
-                I am currently enrolled in the coding bootcamp at the University of California Berkeley.
+                    I graduated from ASU in 2019 with a Bachelors Degree in merchandsing. I currently work
+                    as a dermatology medical assistant and surgical technian, but quickly became interested in computer
+                    science.
+                    I am currently enrolled in the coding bootcamp at the University of California Berkeley.
                 </p>
             </div>
         </div>
+    </section>
 
-            <!-- <a href="Projects">Projects</a> -->
-        <div id="projects" class="projects">
+            <!-- section 2: projects -->
+    <section id="projects">
             <h2>Projects</h2>
             <a href="Module 1 Project">
-                <img src="assets/images/edited1.png" alt="screenshot of Module 1 Project" class="projectimage"/>
+                <img src="assets/images/edited1.png" alt="screenshot of Module 1 Project" class="projectimage" />
             </a>
-        </div>
+        </section>
 
-        <div id="Contact"></div>
-        <!-- <a href="Contact">Contact</a> -->
-        <h2>Contact</h2>
+
+            <!-- section 3: contact -->
+    <section id="contact">
+                 <h2>Contact</h2>
         <form>
             <label for="Name">Name</label>
-            <input type="text" id="Name"/>
-            
+            <input type="text" id="Name" />
+
             <label for="Email">Email</label>
-            <input type="email" id="email"/>
+            <input type="email" id="email" />
 
             <label for="Message">Message</label>
             <textarea id="Message" cols="60" rows="20"></textarea>
-            
+
             <button type="submit">Submit</button>
         </form>
         </div>
-
+    </section>
 
 
 
         </div>
-    </div>
+        </div>
     </main>
 </body>
 
